@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast Service</title>
+  <link id="stylesheet" rel="stylesheet" href="style1.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 id="title">Astronomy Viewing Conditions</h1> 
+
+    <h2 id="entry_fields"> 
+        <p>This webpage is designed to report your local forecast.</p>
+        <p>Simply enter your location on Earth, or use the "Get Location" Feature.</p>
+        <p style="font-size:medium;"><u>Common City Locations:</u>
+            <br>(City, State, Latitude, Longtiude)
+            <br>Boston MA, 42.3601, -71.0589
+            <br>New York, NY, 40.7128, -74.0060
+            <br>Chicago, IL, 41.881832, -87.623177
+            <br>San Franscisco, CA, 37.773972, -122.431297
+            <br>Anchorage, AK, 61.217381, -149.863129
+        </p>
+        
+        <label>Latitude:</label>
+        <input type="text" id="latitude"> <br>
+        <label>Longitude:</label>
+        <input type="text" id="longitude"> <br> <br>
+        <p id="location"></p> 
+        <button onclick="get_coordinates()">Get Current Location</button>
+        <button onclick="get_forecast()">Submit Request</button>
+        <button id="toggleBtn">Change Background Dark/Light Mode</button>
+        <p id="loc"></p> 
+    </h2>
+
+    <p id="outputStatus">Waiting to provide forecast.....</p>
+    <p id="outputGriddata"></p>
+    <p id="outputForecast"></p>
+    <p id="Copyright">  © Copyright Alexander Medeiros 2024</p>
+</body>
+</html>

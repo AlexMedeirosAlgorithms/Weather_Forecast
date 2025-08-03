@@ -1,0 +1,32 @@
+/*Style sheet for dark mode*/
+
+body {
+    background-color: black;
+    color: green;
+  }
+
+#title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: Red; 
+    padding: 40px;
+    background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2MwcTJ4MmY5YWFydXlkYm5qamx4a2c3NXQ3OTZlYW56OG12ZG1zMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U3qYN8S0j3bpK/giphy.webp');
+    background-size: cover; 
+    background-position: center;
+    display: inline-block; 
+    width: 100%; 
+  }
+
+#entry_fields{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    text-align: center;
+    }
+
+#Copyright{
+    text-align: center;
+    }
+
+  
